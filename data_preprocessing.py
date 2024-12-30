@@ -56,7 +56,7 @@ def make_split_folder_in_yolo_format(split_name, split_df):
     '''
 
     # Write the content to the datasets.yaml file
-    with open('datasets.yaml', 'w') as file:
+    with open('datasets/datasets.yaml', 'w') as file:
         file.write(datasets_yaml)
 
 if __name__ == "__main__":
