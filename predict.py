@@ -7,8 +7,7 @@ import pytesseract
 from pytesseract import Output
 
 def load_model(model_path):
-    model = YOLO('yolov8n.pt')
-    model = model.load("best-yolo-model.pt")
+    model = YOLO(model_path)
     return model
 
 
@@ -53,3 +52,8 @@ def predict_and_plot(model,path_test_car):
     plt.imshow(image)
     plt.axis('off')  # Hide the axis
     plt.show()  # Display the image
+    
+if __name__ == "__main__":
+    model = load_model("best.pt")
+    test_file = "datasets/cars_license_plate_new/test/images/Cars72.png"
+    predict_and_plot(model,test_file)
