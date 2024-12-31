@@ -1,14 +1,6 @@
-<div style="display: flex; justify-content: space-around;">
-    <!-- Demo Video -->
-    <video width="45%" controls>
-        <source src="temp/demo.mp4" type="video/mp4">
-    </video>
-
-    <!-- Output_Demo Video -->
-    <video width="45%" controls>
-        <source src="temp/output_demo.mp4" type="video/mp4">
-    </video>
-</div>
+Input Image                                                                            |  Output Image
+:-------------------------:                                                               |:-------------------------:
+![images](https://github.com/user-attachments/assets/83c26b09-6749-4d8a-adb3-d778dc27567a)|  ![output_images](https://github.com/user-attachments/assets/642eaf36-3c77-4045-9ab8-67d3f11a2afa)
 
 
 ## Overview
